@@ -3,8 +3,8 @@ const ws = require('ws');
 
 
 const wss = new ws.Server({
-    port: process.env.PORT||3000,
-}, () => console.log(`Server started on ${port}`))
+    port: 5000,
+}, () => console.log(`Server started on 5000`))
 
 
 wss.on('connection', function connection(ws) {
