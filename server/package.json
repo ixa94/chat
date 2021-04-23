@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+ 
   "scripts": {
-    "start": "nodemon websocket.js"
+    "start": "node websocket.js"
+    
   },
   "keywords": [],
   "author": "",
